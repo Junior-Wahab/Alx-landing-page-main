@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Porfolio Website</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <header>
+      <nav>
+        <ul>
+          <li><a href="#intro">Home</a></li>
+          <li><a href="#features">Features</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- Intro Section -->
+    <section id="intro" class="intro-section">
+      <img
+        src="./images/mubarak-showole-Ve7xjKImd28-unsplash.jpg"
+        alt="Cover Image"
+        class="cover-image"
+      />
+      <div class="intro-content">
+        <h1>Porfolio Website</h1>
+        <p>Discover Your Next Software enginner</p>
+        <a
+          href="https://github.com/Junior-Wahab/Alx-portfolio-project"
+          class="btn"
+          target="_blank"
+          >Try It Now</a
+        >
+      </div>
+    </section>
+
+    <!-- Feature Section -->
+    <section id="features" class="features-section">
+      <h2>Key Features</h2>
+      <div class="feature">
+        <img
+          src="./images/melinda-gimpel-5Ne6mMQtIdo-unsplash.jpg"
+          alt="Feature 1 Image"
+        />
+        <h3>About section</h3>
+        <p>
+          Short biography or introduction. Professional photo.Background,
+          experience, and unique selling points.
+        </p>
+      </div>
+      <div class="feature">
+        <img
+          src="./images/anete-lusina-zwsHjakE_iI-unsplash.jpg"
+          alt="Feature 2 Image"
+        />
+        <h3>Porfolio / Gallery</h3>
+        <p>
+          Showcase of your best work with descriptions.Organized by category or
+          project type. High-resolution images, videos, or interactive elements.
+        </p>
+      </div>
+      <div class="feature">
+        <img
+          src="./images/anete-lusina-zwsHjakE_iI-unsplash.jpg"
+          alt="Feature 3 Image"
+        />
+        <h3>Contact Information</h3>
+        <p>
+          Easy-to-find contact form. Email address and phone number.Links to
+          social media profiles.
+        </p>
+      </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+      <h2>About This Project</h2>
+      <p>
+        My portfolio project is a curated collection of your work, typically
+        presented online, to showcase my skills, experience, and achievements.
+        It includes highlights of my best projects, detailed case studies, and
+        examples of my abilities in a professional format. This helps potential
+        clients or employers assess my capabilities and fit for their needs.
+      </p>
+      <div class="team">
+        <div class="team-member">
+          <h3>Developer name</h3>
+          <p>Wahab Musah Junior</p>
+          <a href="https://www.linkedin.com/in/wahab-junior/" target="_blank"
+            >LinkedIn</a
+          >
+          | <a href="https://x.com/WahabMJnr" target="_blank">Twitter</a><br />
+        </div>
+      </div>
+      <div>
+        <a href="https://github.com/Junior-Wahab" class="btn" target="_blank"
+          >View on GitHub</a
+        >
+      </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+      <h2>Contact Us</h2>
+      <p>Feel free to reach out if you have any questions or feedback!</p>
+      <form action="submit_form.php" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <p>&copy; 2024 WahabMJnr. All rights reserved.</p>
+    </footer>
+  </body>
+</html>
